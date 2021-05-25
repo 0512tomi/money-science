@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+/*
+Theme Name: SUBHAND
+Author: SUBHAND.LLC
+Author URL: http://www.subhand.net/
+*/
+
+
+/* common
+---------------------------------------------*/
+* {margin:0;padding:0;}
+
+a:link,a:visited {
+	color: #2236cf;
+	text-decoration:underline;
+}
+a:hover,a:active {
+	color: #ffffff;
+	text-decoration:underline;
+}
+
+.impact   {font-size:20pt; font-weight:bold;}
+.impact2  {color:red;}
+.impact3  {background:yellow; color:#000;}
+#impact4  {underline;}
+.impact5  {background:#173B50; padding:2px 5px; color:#fff;}
+.impact6  {background:#f4f4f4; padding:3px; line-height:1.1;}
+.impact7  {background: #B60000; padding:2px 5px; color:#fff;}
+.style2   {color: #FF0000}
+.style3   {color: #333333}
+.style4   {color: #000000}
+
+
+img{ border: none;}
+
+input[type=text]{
+height:200px;
+}
+
+/* layout
+---------------------------------------------*/
+.container {
+  display: block;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 60px 40px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+/*TopIntro-Start*/
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	min-width: 1100px;
+	background-color: #fff;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: top center;
+	
+  text-align:center;
+  font-size:22px;
+  font-family: 'meiryo', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+    color: #383d5c;
+}
+
+#head1{
+    height: 0;
+    /* 表示画像の高さ ÷ 表示画像の幅 × 100 */
+    padding-top: 67.55%;
+    background: url("../images/header.jpg") center 0 no-repeat;
+    background-size: contain;
+}
+#subhead{
+	height: 0;
+    /* 表示画像の高さ ÷ 表示画像の幅 × 100 */
+    padding-top: 47.6%;
+    background: url("../images/subhead01.jpg") center 0 no-repeat;
+    background-size: contain;
+}
+#content1{
+    height: 0;
+    /* 表示画像の高さ ÷ 表示画像の幅 × 100 */
+    padding-top: 54.11%;
+    background: url("../images/content01.jpg") center 0 no-repeat;
+    background-size: contain;
+}
+#content2{
+    height: 0;
+    /* 表示画像の高さ ÷ 表示画像の幅 × 100 */
+    padding-top: 48.54%;
+    background: url("../images/voice.jpg") center 0 no-repeat;
+    background-size: contain;
+}
+#content3{
+    height: 0;
+    /* 表示画像の高さ ÷ 表示画像の幅 × 100 */
+    padding-top: 63.85%;
+    background: url("../images/jiseki.jpg") center 0 no-repeat;
+    background-size: contain;
+}
+#content4{
+    height: 0;
+    /* 表示画像の高さ ÷ 表示画像の幅 × 100 */
+    padding-top: 52.23%;
+    background: url("../images/merit.jpg") center 0 no-repeat;
+    background-size: contain;
+}
+#content5{
+    height: 0;
+    /* 表示画像の高さ ÷ 表示画像の幅 × 100 */
+    padding-top: 62.23%;
+    background: url("../images/step.jpg") center 0 no-repeat;
+    background-size: contain;
+}
+
+#conversion{
+    height: 0;
+    /* 表示画像の高さ ÷ 表示画像の幅 × 100 */
+    padding-top: 55%;
+    background: url("../images/conversion_01.jpg") center 0 no-repeat;
+    background-size: contain;
+}
+.button{
+	background-color: #EEB43A;
+}
+
+
+--------------------------- */
+ol,
+ul{
+	list-style-position: inside;
+	padding-left:10px;
+}
+ol li,
+ul li{
+	text-align:left;
+}
+
+
+#right-box {
+  width: 1000px;
+  font-size: 28px;
+  border: solid 3px #153d6b;
+  padding: 25px;
+	text-align: left;
+  background: #fff;
+  overflow: hidden;/*float解除*/
+}
+#right-box .space {
+  float: right;/*画像の位置を右下にしたい場合はright*/
+  height: 8em;/*画像上の余白の高さ*/
+}
+#right-box .img {
+  float: right;/*画像の位置を右下にしたい場合はright*/
+  clear: both;/*.spaceのfloat解除*/
+  margin: 1.2em 0 0 1.2em;/*画像の周りの余白*/
+}
+/*================================================
+   以下、footer
+==================================================*/
+footer {
+	overflow: hidden;
+	background: #000000;
+}
+footer #copyright {
+	font-size: 18px;
+	padding: 20px 0 ;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+}
+#copyright a{
+	font-size: 14pt;
+	color: #FFFFFF;
+}
+#copyright p{
+	padding-top: 10px;
+}
